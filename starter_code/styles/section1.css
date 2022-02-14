@@ -1,3 +1,7 @@
+#participe_en{
+    margin: 80px;
+}
+
 #participe{
     color: var(--tinto);
     text-align: center;
@@ -12,4 +16,5 @@
 
 #flecha{
     text-align: center;
+    margin: 20px;
 }

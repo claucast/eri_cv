@@ -1,4 +1,5 @@
 #cuadro{
+    margin: 80px;
     border: solid;
     border-color: var(--rosa);
     border-radius: 30px;
