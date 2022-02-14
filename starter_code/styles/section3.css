@@ -1,0 +1,21 @@
+#cuadro{
+    border: solid;
+    border-color: var(--rosa);
+    border-radius: 30px;
+    background-color: var(--rosa);
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+#testimonio{
+    color: var(--tinto);
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#instructor{
+    color: var(--tintito);
+    font-weight: bold;
+}

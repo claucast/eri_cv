@@ -1,0 +1,15 @@
+#participe{
+    color: var(--tinto);
+    text-align: center;
+    font-size: 25px;
+}
+
+#aqui{
+    color: var(--tinto);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#flecha{
+    text-align: center;
+}

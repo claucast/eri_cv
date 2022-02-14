@@ -1,0 +1,88 @@
+#about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#btn-cv{
+    display: none;
+}
+h1{
+    color: var(#310A90);
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    color: var(--tinto);
+}
+#logo{
+    font-size: 20px;
+    font-weight: 900;
+}
+#blanco{
+    color: var(--blanco);
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{
+    border-color: var(--tinto);
+    border-radius: 2px;
+    padding-top: 10px;
+    letter-spacing: 10px;
+    margin-left: 1.5%;
+}
+
+#boton_cv{
+    color: var(--blanco);
+    height: 40px;
+    background-color: var(--tinto);
+    font-weight: bolder;
+    padding: 10px 50px;
+    border-style: solid;
+    border-color: var(--tinto);
+    border-radius: 7px;
+
+}
+
+#btn-cv{
+    color: var(--blanco);
+    height: 40px;
+    background-color: var(--tinto);
+    font-weight: bolder;
+    padding: 10px 50px;
+    border-style: solid;
+    border-color: var(--tinto);
+    border-radius: 7px;
+}
+
+
+/*PHONE STYLE*/
+@media screen and (max-width:600px) {
+    #about-me{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #nav-bar{
+        display: none;
+        direction: row;
+    }
+
+    #btn-cv{
+        display: block;
+        justify-content: center;
+    }
+
+    #logo{
+        display: block;
+    }
+}

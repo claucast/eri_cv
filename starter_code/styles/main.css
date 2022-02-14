@@ -1,0 +1,22 @@
+@import url(./about-me.css);
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --tinto: #7c193c;
+    --blanco: #FFFFFF;
+    --rosita: #c591a3;
+    --rosa: #e2c7d1;
+    --tintito: #aa2856;
+}
+body{
+    font-family: var(--fontBase);
+    margin: 50px;
+}
+html{
+    background: #DD5E89; 
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89); 
+    background: linear-gradient(to right, #F7BB97, #DD5E89);    
+}
